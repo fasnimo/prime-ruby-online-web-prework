@@ -5,5 +5,5 @@ def prime?(integer)
      return false 
    end
  end
- true 
+ true(-1) 
 end
