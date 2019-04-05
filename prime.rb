@@ -3,4 +3,7 @@ def prime?(integer)
  (2...integer).each do |solve|
    if (integer % solve).zero?
      return false 
+   end
+ end
+ true 
 end
