@@ -1,7 +1,7 @@
 def prime?(integer)
  false if integer < 2 
  (2...integer).each do |solve|
-   if (integer % solve -1).zero?
+   if (integer -1 % solve).zero?
      return false
    end
  end
